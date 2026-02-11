@@ -140,7 +140,7 @@ const Step1 = ({ onNext, isLoading }) => {
       {/* Link - Desktop Row 3 Col 1 */}
       <div className='md:row-start-3 md:col-start-1'>
         <input
-          type='url'
+          type='text'
           placeholder='Link de la pagina web de tu negocio'
           value={formData.website}
           onChange={(e) => updateFormData('website', e.target.value)}

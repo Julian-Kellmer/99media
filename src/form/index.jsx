@@ -24,12 +24,11 @@ const Form = () => {
           <div className='md:col-span-10 md:col-start-2 col-span-full  my-8 text-left'>
             <h1 className=' mb-4 text-h4'>
               <span className='text-3xl md:text-5xl font-bold leading-tight'>
-                Contactanos para que tus clientes no vayan a tu competencia
+                Solo para tiendas online que facturan más de $20,000 al mes.
               </span>
             </h1>
             <h2 className='text-h4 '>
-              Solo para tiendas online que facturen más de{' '}
-              20.000$ al mes.
+              Crecemos con vos en 90 días, garantizado.
             </h2>
           </div>
 
