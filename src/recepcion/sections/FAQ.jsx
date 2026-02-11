@@ -63,7 +63,8 @@ const FAQ = () => {
         <div className='text-center space-y-8'>
           <h2 className='text-3xl md:text-5xl font-bold leading-tight text-white font-creatoDisplay'>
             Como es que escalamos tiendas online todos los meses?{' '}
-            <span className='text-[#00C9A7] block mt-2'>Acá te lo cuento</span>
+            <span className='
+             block mt-2'>Acá te lo cuento</span>
           </h2>
 
           <div className='w-full aspect-video bg-black/20 rounded-2xl overflow-hidden shadow-2xl border border-white/10'>

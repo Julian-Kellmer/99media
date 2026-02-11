@@ -38,7 +38,7 @@ const reviewsData = [
     name: 'Martin Gutman',
     role: 'TENGO TODO TECNO',
     text: 'Los chicos de 99 Media son unos capos. Estuvieron en cada detalle y construyeron la identidad de la marca desde cero. Gracias a su laburo, todos los días superamos las órdenes de compra y seguimos creciendo. Tengo Todo Tecno avanza día a día, y gran parte de eso es gracias a ellos.',
-    image: './logoTTT.png',
+    image: './LogoTTT.png',
   },
 ]
 
