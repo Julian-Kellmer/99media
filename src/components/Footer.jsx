@@ -2,12 +2,12 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='w-full bg-[#6E4EFF] text-white py-8 px-4 font-poppins'>
+    <footer className='w-full border-t border-white/30 text-white py-8 px-4 font-creatoDisplay'>
       <div className='max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm md:text-base'>
         {/* Left: Contact Link */}
         <div className='w-full md:w-auto text-center md:text-left'>
           <a
-            href='mailto:contacto@sellium.com'
+            href='mailto:contacto@99Media.com'
             className='underline hover:text-gray-200 transition-colors'>
             Contacto
           </a>

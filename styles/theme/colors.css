@@ -1,10 +1,10 @@
 :root {
   /* Base Variables (Mode 1 / Default) */
   --primary: #1e1e1e;
-  --secondary: #6e4eff;
+  --secondary: #0095FF;
   --tertiary: #1e9577;
 
-  --app-bg: linear-gradient(180deg, #1e1e1e 0%, #6e4eff 100%);
+  --app-bg: linear-gradient(180deg, #1e1e1e 0%, #0095FF 100%);
 
   /* About Section Variables */
   --bg-about: #1e1e1e;

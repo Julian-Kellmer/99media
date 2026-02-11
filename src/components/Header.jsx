@@ -53,8 +53,8 @@ const Header = () => {
         className={`transition-all duration-75 ease-linear pointer-events-auto`}>
         <Link to='/'>
           <img
-            src='./logo_sellium.png'
-            alt='Sellium Logo'
+            src='./99MEDIA.svg'
+            alt='99 Media Logo'
             className='w-full h-full object-contain'
           />
         </Link>
@@ -63,8 +63,8 @@ const Header = () => {
       {/* Fade-in Text - Only on /recepcion */}
       {isRecepcion && (
         <div
-          className={`text-white font-poppins font-bold text-xl md:text-2xl transition-opacity duration-500 ${showText ? 'opacity-100' : 'opacity-0'}`}>
-          Sellium
+          className={`text-white font-creatoDisplay font-bold text-xl md:text-2xl transition-opacity duration-500 ${showText ? 'opacity-100' : 'opacity-0'}`}>
+          99 Media
         </div>
       )}
     </header>

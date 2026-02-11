@@ -7,38 +7,38 @@ gsap.registerPlugin(ScrollTrigger)
 const reviewsData = [
   {
     id: 1,
-    name: 'Tomas Silberman',
-    role: 'Socio en Ojo Rojo',
-    text: 'No tengo mucha experiencia en tecnología, y eso era algo que me preocupaba al momento de sumar una app. Lo que más me gustó de Sellium fue que todo el proceso fue simple y claro desde el primer día. El sistema fue facil de poner en funcionamiento y hoy la usamos sin complicaciones. Impresionantes los resultados de retención de clientes con Sellium.',
-    image: './ojoRojoLogo.png', // Placeholder
+    name: 'Bruno Lerer',
+    role: 'Lebane',
+    text: 'Entender que una obra puede gestionarse con inteligencia artificial puede parecer difícil, pero es una realidad. Gracias al método aplicado por 99 Media, logramos expandir nuestra presencia en redes sociales y acercar nuestra plataforma a desarrolladoras y constructoras. Hoy más de 250 clientes utilizan nuestra app para gestionar sus obras, consolidando un crecimiento sostenido y una adopción real en el sector, y todo esto es gracias al equipo de 99 media.',
+    image: './LogoLebane.png', // Placeholder
   },
   {
     id: 2,
-    name: 'Tomy Lapidus',
-    role: 'Director en El Mundo del JugueteRetail / Juguetería',
-    text: 'Personalmente, tengo un enfoque muy de resultados, Por eso cuando empezamos con el sistema de fidelizacion esperamos ver resultados y no tardaron en llegar. Mis clientes ya se manejan con la app, mejoramos exponencialmente la tasa de recompra y con el plan PRO ya estamos segmentando con una base de datos con mas de 5mil usuarios. ',
-    image: './EMDL-Logo.png',
+    name: 'Nico Kiperszmid',
+    role: 'DYPSA GROUP ',
+    text: 'El equipo de 99 Media está en todos los detalles. Gracias a su trabajo, Dypsa Group logró fortalecer su presencia en redes sociales y posicionarse frente a un nuevo público. Su compromiso, creatividad y profesionalismo marcaron una gran diferencia en nuestra comunicación. Desde Dypsa Group estamos muy contentos de trabajar con ellos.',
+    image: './LogoDypsa.png',
   },
   {
     id: 3,
-    name: 'Pablo Bendayan',
-    role: 'Centre Manager en Shopping San JustoCentro Comercial',
-    text: 'Los visitantes del shopping descargan la app para acceder a promociones, beneficios y para encontrar fácilmente locales y puntos clave dentro del centro comercial. Con Sellium logramos concentrar toda esa información en un solo canal, facilitando la experiencia del visitante y mejorando la forma en que se informan antes y durante su visita al shopping.',
-    image: './logoShopping.png',
+    name: 'Nicole Lapidus',
+    role: 'EL MUNDO DEL JUGUETE',
+    text: 'Gracias al método de escala sostenida de la agencia, los resultados de El Mundo del Juguete crecieron de manera exponencial. Desde la creación de la marca hasta hoy, 99 Media nos acompañó en cada etapa del proceso. Su equipo está siempre presente, brindando seguimiento, estrategia y acompañamiento en cada decisión clave. Se involucran en el crecimiento integral de la marca.',
+    image: './EMDL-Logo.png',
   },
   {
     id: 4,
     name: 'Adrian Paniccia',
-    role: 'Head of operations Wenelen Executive Hotel',
-    text: 'La app permite a nuestros huéspedes acceder fácilmente a información, servicios y beneficios, mejorando su experiencia y fortaleciendo la relación con la marca. Hoy nuestros huespedes nos eligen mas seguido gracias a la App.',
+    role: 'WENELEN EXECUTIVE HOTEL',
+    text: 'Gracias al trabajo de 99 Media, conseguimos mayor visibilidad y una comunicación alineada con nuestro perfil corporativo. Esto nos permitió atraer a numerosas empresas que hoy se hospedan en nuestro hotel y realizan sus consultas a través de LinkedIn e Instagram. A través de nuestra presencia estratégica en redes sociales logramos darnos a conocer y posicionarnos como un referente en Añelo.',
     image: './logoWenelen.png',
   },
   {
     id: 5,
-    name: 'Denise Ovsejevisch',
-    role: 'Head of Marketing en DITOYS',
-    text: 'Los clientes utilizan la app para conocer promociones y novedades, fortaleciendo la relación con la marca y mejorando la experiencia de compra.',
-    image: './logoDitoys.png',
+    name: 'Martin Gutman',
+    role: 'TENGO TODO TECNO',
+    text: 'Los chicos de 99 Media son unos capos. Estuvieron en cada detalle y construyeron la identidad de la marca desde cero. Gracias a su laburo, todos los días superamos las órdenes de compra y seguimos creciendo. Tengo Todo Tecno avanza día a día, y gran parte de eso es gracias a ellos.',
+    image: './logoTTT.png',
   },
 ]
 
@@ -72,8 +72,8 @@ const Reviews = () => {
         <div
           ref={leftColRef}
           className='col-span-12 md:col-span-6 flex flex-col justify-start pt-10 h-fit'>
-          <h2 className='text-3xl md:text-5xl font-bold leading-tight text-white font-poppins px-4 md:px-0'>
-            Con <span className='text-[#00C9A7]'>Sellium</span> el crecimiento
+          <h2 className='text-3xl md:text-5xl font-bold leading-tight text-white font-creatoDisplay px-4 md:px-0'>
+            Con <span className='text-secondary'>99 Media</span> el crecimiento
             es garantizado, mira nuestros casos de éxito
           </h2>
         </div>
@@ -111,17 +111,17 @@ const Reviews = () => {
                   />
                 </div>
                 <div>
-                  <h4 className='text-white font-bold text-lg font-poppins'>
+                  <h4 className='text-white font-bold text-lg font-creatoDisplay'>
                     {review.name}
                   </h4>
-                  <p className='text-gray-400 text-sm font-poppins'>
+                  <p className='text-gray-400 text-sm font-creatoDisplay'>
                     {review.role}
                   </p>
                 </div>
               </div>
 
               {/* Text */}
-              <p className='text-gray-300 leading-relaxed font-poppins text-sm md:text-base'>
+              <p className='text-gray-300 leading-relaxed font-creatoDisplay text-sm md:text-base'>
                 {review.text}
               </p>
             </div>

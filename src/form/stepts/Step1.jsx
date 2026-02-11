@@ -104,7 +104,7 @@ const Step1 = ({ onNext, isLoading }) => {
           placeholder='Email'
           value={formData.email}
           onChange={(e) => updateFormData('email', e.target.value)}
-          className={`w-full bg-white/10 border ${errors.email ? 'border-red-500' : 'border-white/20'} rounded-lg px-4 py-3 placeholder-gray-400 focus:outline-none focus:border-[#6e4eff] transition-colors text-white`}
+          className={`w-full bg-white/10 border ${errors.email ? 'border-red-500' : 'border-white/20'} rounded-lg px-4 py-3 placeholder-gray-400 focus:outline-none focus:border-secondary transition-colors text-white`}
         />
         {errors.email && (
           <span className='text-red-500 text-xs ml-1'>{errors.email}</span>
@@ -118,7 +118,7 @@ const Step1 = ({ onNext, isLoading }) => {
           placeholder='Nombre'
           value={formData.firstName}
           onChange={(e) => updateFormData('firstName', e.target.value)}
-          className={`w-full bg-white/10 border ${errors.firstName ? 'border-red-500' : 'border-white/20'} rounded-lg px-4 py-3 placeholder-gray-400 focus:outline-none focus:border-[#6e4eff] transition-colors text-white`}
+          className={`w-full bg-white/10 border ${errors.firstName ? 'border-red-500' : 'border-white/20'} rounded-lg px-4 py-3 placeholder-gray-400 focus:outline-none focus:border-secondary transition-colors text-white`}
         />
         {errors.firstName && (
           <span className='text-red-500 text-xs ml-1'>{errors.firstName}</span>
@@ -130,7 +130,7 @@ const Step1 = ({ onNext, isLoading }) => {
           placeholder='Apellido'
           value={formData.lastName}
           onChange={(e) => updateFormData('lastName', e.target.value)}
-          className={`w-full bg-white/10 border ${errors.lastName ? 'border-red-500' : 'border-white/20'} rounded-lg px-4 py-3 placeholder-gray-400 focus:outline-none focus:border-[#6e4eff] transition-colors text-white`}
+          className={`w-full bg-white/10 border ${errors.lastName ? 'border-red-500' : 'border-white/20'} rounded-lg px-4 py-3 placeholder-gray-400 focus:outline-none focus:border-secondary transition-colors text-white`}
         />
         {errors.lastName && (
           <span className='text-red-500 text-xs ml-1'>{errors.lastName}</span>
@@ -144,7 +144,7 @@ const Step1 = ({ onNext, isLoading }) => {
           placeholder='Link de la pagina web de tu negocio'
           value={formData.website}
           onChange={(e) => updateFormData('website', e.target.value)}
-          className={`w-full h-full bg-white/10 border ${errors.website ? 'border-red-500' : 'border-white/20'} rounded-lg px-4 py-3 placeholder-gray-400 focus:outline-none focus:border-[#6e4eff] transition-colors text-white`}
+          className={`w-full h-full bg-white/10 border ${errors.website ? 'border-red-500' : 'border-white/20'} rounded-lg px-4 py-3 placeholder-gray-400 focus:outline-none focus:border-secondary transition-colors text-white`}
         />
         {errors.website && (
           <span className='text-red-500 text-xs ml-1 block'>
@@ -191,7 +191,7 @@ const Step1 = ({ onNext, isLoading }) => {
               <div
                 className={`w-5 h-5 rounded-full border-2 flex items-center justify-center transition-colors flex-shrink-0 ${
                   formData.revenue === idx
-                    ? 'border-transparent bg-[#6e4eff]'
+                    ? 'border-transparent bg-secondary'
                     : 'border-gray-400'
                 }`}
                 onClick={() => updateFormData('revenue', idx)}>
@@ -212,12 +212,12 @@ const Step1 = ({ onNext, isLoading }) => {
         <button
           type='submit'
           disabled={isLoading || sending}
-          className={`w-full h-full bg-white text-[#6e4eff] font-bold rounded-lg py-3 hover:bg-gray-100 transition-colors shadow-lg shadow-white/10 flex items-center justify-center ${
+          className={`w-full h-full bg-white text-secondary font-bold rounded-lg py-3 hover:bg-gray-100 transition-colors shadow-lg shadow-white/10 flex items-center justify-center ${
             isLoading || sending ? 'opacity-80 cursor-not-allowed' : ''
           }`}>
           {isLoading || sending ? (
             <div className='flex items-center gap-2'>
-              <div className='w-6 h-6 border-2 border-[#6e4eff] border-t-transparent rounded-full animate-spin' />
+              <div className='w-6 h-6 border-2 border-secondary border-t-transparent rounded-full animate-spin' />
               <span>{sending ? 'Enviando...' : 'Cargando...'}</span>
             </div>
           ) : (

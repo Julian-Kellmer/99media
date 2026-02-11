@@ -7,7 +7,7 @@ const Video = () => {
         <div className='col-span-full my-8 text-left'>
           <div className='relative w-full overflow-hidden rounded-2xl bg-transparent shadow-2xl'>
             <video
-              src='/SelliumHorizontal.webm'
+              src='/AgenciaHorizontal.webm'
               controls
               autoPlay
               muted

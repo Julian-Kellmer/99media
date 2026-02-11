@@ -19,7 +19,7 @@ const Form = () => {
 
   return (
     <FormProvider>
-      <div className='layout-wrap min-h-screen w-full flex flex-col items-center pt-16 p-4 text-white font-poppins'>
+      <div className='layout-wrap min-h-screen w-full flex flex-col items-center pt-16 p-4 text-white font-creatoDisplay'>
         <div className='layout-grid w-full max-w-7xl'>
           <div className='md:col-span-10 md:col-start-2 col-span-full  my-8 text-left'>
             <h1 className=' mb-4 text-h4'>
@@ -28,8 +28,8 @@ const Form = () => {
               </span>
             </h1>
             <h2 className='text-h4 '>
-              Solo para tiendas online que facturen más de <span className='text-tertiary'>20.000$</span>{' '}
-              al mes.
+              Solo para tiendas online que facturen más de{' '}
+              20.000$ al mes.
             </h2>
           </div>
 

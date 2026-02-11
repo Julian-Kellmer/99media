@@ -10,10 +10,9 @@ const Recepcion = () => {
         <div className='layout-grid w-full max-w-7xl md:min-h-screen min-h-[60vh] '>
           <div className='col-span-full my-8 text-left flex flex-col items-start justify-end md:justify-center px-4 md:px-0'>
             <h1 className='text-3xl md:text-5xl font-bold leading-tight mb-4 font-roboto '>
-              Tu llamada aun no fue confirmada, Espera la comunicación via{' '}
-              <span className='text-tertiary'>Whatsapp</span>
+              Tu llamada aun no fue confirmada, Espera la comunicación via Whatsapp
             </h1>
-            <p className='text-gray-400 text-sm font-poppins'>
+            <p className='text-gray-400 text-sm font-creatoDisplay'>
               En breve vas a recibir un WhatsApp para confirmar la llamada. Si
               no recibimos confirmación en las próximas 12 horas, vamos a
               liberar el espacio para otro E-commerce.
