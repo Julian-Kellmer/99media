@@ -1,8 +1,8 @@
 import React from 'react'
-import Video from './sections/video'
 import Reviews from './sections/Reviews'
 import FAQ from './sections/FAQ'
 import '@fontsource/poppins'
+import SmartVideo from '../components/SmartVideos'
 const Recepcion = () => {
   return (
     <sections className=''>
@@ -19,7 +19,7 @@ const Recepcion = () => {
             </p>
           </div>
         </div>
-        <Video />
+        <SmartVideo webmSrc='/AgenciaHorizontal.webm' mp4Src='/99media1OPT.mp4' poster='/portadaprimervideo1.png' />
         <Reviews />
       </div>
       <FAQ />

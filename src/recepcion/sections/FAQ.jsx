@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import SmartVideo from '../../components/SmartVideos'
 const faqData = [
   {
     question: '¿Qué beneficios tiene frente a la web?',
@@ -63,18 +63,18 @@ const FAQ = () => {
         <div className='text-center space-y-8'>
           <h2 className='text-3xl md:text-5xl font-bold leading-tight text-white font-creatoDisplay'>
             Como es que escalamos tiendas online todos los meses?{' '}
-            <span className='
-             block mt-2'>Acá te lo cuento</span>
+            <span
+              className='
+             block mt-2'>
+              Acá te lo cuento
+            </span>
           </h2>
 
-          <div className='w-full aspect-video bg-black/20 rounded-2xl overflow-hidden shadow-2xl border border-white/10'>
-            <video
-              src='/AgenciaHorizontal.webm'
-              controls
-              playsInline
-              className='w-full h-full object-cover'
-            />
-          </div>
+          <SmartVideo
+            webmSrc='/99media2OPT.webm'
+            mp4Src='/99media2OPT.mp4'
+            poster='/portada99media2.png'
+          />
         </div>
 
         {/* FAQ Section */}
