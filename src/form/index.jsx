@@ -15,7 +15,7 @@ const Form = () => {
         <div className='md:col-span-10 md:col-start-2 col-span-full  my-8 text-left'>
           <h1 className=' mb-4 text-h4'>
             <span className='text-3xl md:text-5xl font-bold leading-tight'>
-              Solo para tiendas online que facturan más de $20,000 al mes.
+              Solo para tiendas online que facturan más de U$D 20,000 al mes.
             </span>
           </h1>
           <h2 className='text-h4 '>
