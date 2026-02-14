@@ -19,7 +19,7 @@ const Recepcion = () => {
             </p>
           </div>
         </div>
-        <SmartVideo webmSrc='/AgenciaHorizontal.webm' mp4Src='/99media1OPT.mp4' poster='/portadaprimervideo1.png' />
+        <SmartVideo webmSrc='/99Media2OPT.webm' mp4Src='/99Media2OPT.mp4' poster='/Portada99Media2.png' />
         <Reviews />
       </div>
       <FAQ />
