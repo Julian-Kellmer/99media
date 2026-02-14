@@ -71,8 +71,8 @@ const FAQ = () => {
           </h2>
 
           <SmartVideo
-            webmSrc='/99media2OPT.webm'
-            mp4Src='/99media2OPT.mp4'
+            webmSrc='/AgenciaHorizontal.webm'
+            mp4Src='/99media1OPT.mp4'
             poster='/portadaprimervideo1.png'
           />
         </div>
