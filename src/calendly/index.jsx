@@ -13,11 +13,13 @@ const Calendly = () => {
               Agendá tu llamada
             </span>
           </h1>
-          <h2 className='text-h4'>
+          <h2 className='text-h4 text-green-500 '>
             Seleccioná un horario que te quede cómodo.
           </h2>
         </div>
-
+        <div className='md:col-span-10 md:col-start-2 col-span-full text-center'>
+          <h5 className='text-h2 text-white '> PASO 2 de 2 </h5>
+        </div>
         {isLoading && (
           <div className='col-span-full flex justify-center items-center h-64'>
             <div className='w-12 h-12 border-4 border-secondary border-t-transparent rounded-full animate-spin' />

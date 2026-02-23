@@ -18,11 +18,13 @@ const Form = () => {
               Solo para tiendas online que facturan más de U$D 20,000 al mes.
             </span>
           </h1>
-          <h2 className='text-h4 '>
+          <p className='text-h4 text-green-500 '>
             Crecemos con vos en 90 días, garantizado.
-          </h2>
+          </p>
         </div>
-
+    <div className='md:col-span-10 md:col-start-2 col-span-full text-center'>
+      <h5 className='text-h2 text-white '> PASO 1 de 2 </h5>
+    </div>
         <Step1 onNext={handleNextStep} />
       </div>
     </div>
