@@ -59,6 +59,14 @@ const Step2 = ({ onReady }) => {
         e.data.event === 'calendly.event_scheduled' ||
         (e.data.event && e.data.event.indexOf('event_scheduled') > -1)
       ) {
+        // Track Lead event in Meta Pixel
+        if (typeof window.fbq === 'function') {
+          window.fbq('track', 'Lead')
+          console.log('[MetaPixel] ✅ Lead event fired (Calendly scheduled)')
+        } else {
+          console.warn('[MetaPixel] ⚠️ fbq not available — Lead event skipped')
+        }
+
         window.scrollTo(0, 0)
         navigate('/recepcion')
       }
