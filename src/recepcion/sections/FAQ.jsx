@@ -69,12 +69,6 @@ const FAQ = () => {
               Acá te lo cuento
             </span>
           </h2>
-
-          <SmartVideo
-            webmSrc='/AgenciaHorizontal.webm'
-            mp4Src='/99media1OPT.mp4'
-            poster='/portadaprimervideo1.png'
-          />
         </div>
 
         {/* FAQ Section */}
