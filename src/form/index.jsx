@@ -100,17 +100,17 @@ const Form = () => {
           <button
             onClick={scrollToForm}
             className='bg-[#00e31c] text-white font-bold text-lg px-8 py-3 rounded-xl hover:bg-[#00c217] transition-colors shadow-lg shadow-[#00e31c]/20'>
-            AGENDÁ UNA DEMO
+            Agenda una llamada
           </button>
         </div>
 
         {/* DIVIDER */}
-        <div className='col-span-full md:col-span-10 md:col-start-2 my-10 border-t border-white/20' />
+        <div className='col-span-full md:col-span-10 md:col-start-2  border-t border-white/20' />
 
         {/* STEP 2 FORM */}
         <div
           ref={formRef}
-          className='col-span-full md:col-span-10 md:col-start-2 text-center pt-8'>
+          className='col-span-full md:col-span-10 md:col-start-2 text-center '>
           <div className='space-y-2 mb-8'>
             <h3 className='text-xl md:text-2xl font-bold'>PASO 2 DE 3</h3>
             <p className='text-lg md:text-xl text-white'>
@@ -132,7 +132,7 @@ const Form = () => {
                 <img
                   src={logo}
                   alt={`Logo ${index}`}
-                  className='max-h-full max-w-full object-contain filter grayscale hover:grayscale-0 transition-all cursor-pointer'
+                  className='max-h-full max-w-full object-contain filter  transition-all cursor-pointer'
                 />
               </div>
             ))}
